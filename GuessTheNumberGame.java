@@ -7,7 +7,7 @@ public class GuessTheNumberGame {
         Random rand = new Random();
         int randomNumber = rand.nextInt(100) + 1;
         int guess;
-        int count = 0;
+        int count = 4;
         boolean correct = false;
     
         System.out.println("Guess the number between 1 and 100. You have 7 attempts.");
